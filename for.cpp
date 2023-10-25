@@ -1,23 +1,17 @@
 #include <iostream>
-#include <iomanip>
 using namespace std;
+int fact(int);
 int main ()
 {
-    int p;
-    cout << "Inserire un intero :  ";
-    cin >> p;
-    int sum=0;
-        for (int i =0 ; i <= p ; i++  )
-        {
-        sum = sum + (i*i) ;
-        }
-        cout << setw(4) << sum;
+    int num1;
+    cout << "Inserisci il numero con cui fare il fattoriale :" ;
+    cin >> num1;
+    cout << fact(num1) << endl;
 
 
 
 
 
 
-
-    return 0;
 }
+

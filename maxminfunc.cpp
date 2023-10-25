@@ -1,26 +1,15 @@
 #include <iostream>
 using namespace std;
-int max(int x , int y )
+int main() 
 {
-    if (x<y) return y;
-    else return x;
-}
-
-int main ()
-{
-    int m, n;
-    do
-    {
-        cin >> m;
-        cin>> n;
-        cout << "Il max tra " << m << "  e  " << n << " è " << max(m,n) << endl;
-    }
-    while (m!=0);
-
-
-
-
-
-
-    return 0;
+    int n;
+    cout << "Inserisci un numero intero :  ";
+    cin >> n ;
+    int fattoriale =1;
+        //calcolo fattoriale di n 
+    for (int i =1; n>0; n--) 
+        { fattoriale = fattoriale * n*i;
+          
+        }
+        cout << fattoriale << endl;
 }
