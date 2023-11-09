@@ -11,7 +11,7 @@ libreria <cstring>. Assumete inoltre che i file contengano al
 massimo 1000 parole e che la lunghezza massima delle singole
 parole sia 100. E’ consentito aprire al massimo un unico
 stream per file.*/
-int main ()
+int main (int argc, char * argv [])
 {
     
 
