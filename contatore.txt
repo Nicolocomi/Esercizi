@@ -1,0 +1,29 @@
+Il numero di linee e': 7
+Il numero di parole e': 20
+Frequenza delle lettere : 
+a: 17
+b: 4
+c: 7
+d: 4
+e: 9
+f: 2
+g: 4
+h: 10
+i: 7
+j: 3
+k: 0
+l: 6
+m: 3
+n: 10
+o: 7
+p: 3
+q: 0
+r: 6
+s: 5
+t: 3
+u: 2
+v: 0
+w: 1
+x: 0
+y: 1
+z: 1
